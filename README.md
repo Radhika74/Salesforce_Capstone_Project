@@ -35,7 +35,6 @@ This project is built on the Salesforce platform and leverages the following too
 - **Asynchronous Apex (Scheduled Jobs)**
 - **Email Alerts and Automation**
 - **Custom Objects & Fields**
-- **Validation Rule**
 - **Validation Rules for Data Integrity**
 - **Salesforce DX CLI**
 - **Git & GitHub for Version Control**
