@@ -30,7 +30,7 @@ This project is built on the Salesforce platform and leverages the following too
 
 - **Salesforce Lightning Platform**
 - **Apex Classes & Triggers**
-- **Lightning Web Components (LWC)**
+- **App, Objects, Fiels and Relationship, Validation Rule**
 - **Record-Triggered Flows**
 - **Asynchronous Apex (Scheduled Jobs)**
 - **Email Alerts and Automation**
