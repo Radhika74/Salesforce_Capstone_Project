@@ -6,37 +6,73 @@ HandsMen Threads is a modern fashion brand aiming to enhance customer experience
 
 To maintain business-critical accuracy, the system enforces data integrity directly through the user interface (UI). This ensures reliable insights, reduces manual errors, and supports smarter decision-making across the company.
 
-## 🚀 Key Features & Functional Highlights
+##  Key Features & Functional Highlights
 
-1. **📧 Automated Order Confirmations**  
+1. ** Automated Order Confirmations**  
    Customers receive immediate email updates upon placing orders, improving transparency and building trust.
 
-2. **🎁 Dynamic Loyalty Status Updates**  
+2. ** Dynamic Loyalty Status Updates**  
    Customer loyalty levels are automatically adjusted based on purchase history, promoting repeat purchases through personalized incentives.
 
-3. **📦 Low Stock Alerts**  
+3. ** Low Stock Alerts**  
    When product inventory drops below five units, real-time alerts are triggered to the warehouse team, ensuring proactive restocking.
 
-4. **🕛 Scheduled Bulk Order Processing**  
+4. ** Scheduled Bulk Order Processing**  
    A nightly job runs at midnight to update inventory and financial records, streamlining bulk order workflows and maintaining accurate stock levels.
 
-## 💼 Purpose
+##  Purpose
 
 This Salesforce implementation empowers HandsMen Threads to operate with agility, ensuring seamless integration between sales, customer support, and warehouse functions — all while delivering a consistent, data-driven customer experience.
 
+## 🛠️ Technologies Used
 
+This project is built on the Salesforce platform and leverages the following tools and technologies:
 
-# Salesforce DX Project: Next Steps
+- **Salesforce Lightning Platform**
+- **Apex Classes & Triggers**
+- **Lightning Web Components (LWC)**
+- **Record-Triggered Flows**
+- **Asynchronous Apex (Scheduled Jobs)**
+- **Email Alerts and Automation**
+- **Custom Objects & Fields**
+- **Validation Rules for Data Integrity**
+- **Salesforce DX CLI**
+- **Git & GitHub for Version Control**
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+---
 
-## How Do You Plan to Deploy Your Changes?
+## ⚙️ How the Project Works
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+### 1. **Data Model & UI Enforcement**
+- Custom objects and fields are created to store Orders, Inventory, and Customer Loyalty details.
+- Validation rules ensure that data entered through the UI remains clean and consistent.
 
-## Configure Your Salesforce DX Project
+### 2. **Automation via Flows & Triggers**
+- **Flows**: Handle record-triggered automations like loyalty updates and sending emails.
+- **Apex Triggers**: Manage complex logic like low-stock checks and loyalty level evaluation.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+### 3. **Scheduled Inventory Updates**
+- A **Scheduled Apex job** runs every night at 12 AM to:
+  - Process bulk orders
+  - Update inventory quantities
+  - Sync financial data
+
+### 4. **Email Integration**
+- Salesforce sends email notifications for:
+  - Order confirmation to customers
+  - Low-stock alerts to warehouse teams
+
+### 5. **Lightning Experience Customization**
+- Record Pages, Tabs, and App configuration are done via the **Lightning App Builder** to provide an intuitive UI for sales and service teams.
+  
+#### The solution provides HandsMen Threads with:
+
+- A clean and scalable architecture
+- Automated operations that reduce manual effort
+- Improved customer satisfaction through timely communication
+- Accurate and up-to-date inventory and financial records
+---
+
 
 ## Read All About It
 
