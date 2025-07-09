@@ -24,7 +24,7 @@ To maintain business-critical accuracy, the system enforces data integrity direc
 
 This Salesforce implementation empowers HandsMen Threads to operate with agility, ensuring seamless integration between sales, customer support, and warehouse functions — all while delivering a consistent, data-driven customer experience.
 
-## Technologies Used
+### Technologies Used
 
 This project is built on the Salesforce platform and leverages the following tools and technologies:
 
@@ -40,7 +40,7 @@ This project is built on the Salesforce platform and leverages the following too
 - **Git & GitHub for Version Control**
 
 
-## ⚙️ How the Project Works
+##  How the Project Works
 
 ### 1. **Data Model & UI Enforcement**
 - Custom objects and fields are created to store Orders, Inventory, and Customer Loyalty details.
