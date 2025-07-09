@@ -64,7 +64,7 @@ This project is built on the Salesforce platform and leverages the following too
 ### 5. **Lightning Experience Customization**
 - Record Pages, Tabs, and App configuration are done via the **Lightning App Builder** to provide an intuitive UI for sales and service teams.
   
-#### The solution provides HandsMen Threads with:
+### The solution provides HandsMen Threads with:
 
 - A clean and scalable architecture
 - Automated operations that reduce manual effort
