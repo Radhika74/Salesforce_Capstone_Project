@@ -1,12 +1,12 @@
-#  HandsMen Threads: Streamlining Fashion Operations with Salesforce
+##  HandsMen Threads: Streamlining Fashion Operations with Salesforce
 
-##  Project Overview
+###  Project Overview
 
 HandsMen Threads is a modern fashion brand aiming to enhance customer experiences and operational efficiency through Salesforce. This project focuses on building a scalable and efficient data model that ensures the smooth handling of customer, order, and inventory data across departments.
 
 To maintain business-critical accuracy, the system enforces data integrity directly through the user interface (UI). This ensures reliable insights, reduces manual errors, and supports smarter decision-making across the company.
 
-##  Key Features & Functional Highlights
+###  Key Features & Functional Highlights
 
 1. **Automated Order Confirmations**  
    Customers receive immediate email updates upon placing orders, improving transparency and building trust.
